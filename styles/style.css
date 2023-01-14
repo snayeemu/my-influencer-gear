@@ -334,3 +334,39 @@ article {
     }
 
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .button-container {
+        width: 50%;
+    }
+
+    .header-container {
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+
+    .images {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 49px;
+    }
+
+    article {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .product-container {
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+
+    .product-image-container  {
+        width: 100%;
+        height: 100%;
+    }
+
+    .product-image-container  img {
+        width: 75%;
+    }
+}
