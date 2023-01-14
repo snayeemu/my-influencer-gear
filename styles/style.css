@@ -108,12 +108,13 @@
     width: 80%;
     display: flex;
     justify-content: space-evenly;
-    border-top: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
-    border-bottom: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
+    border-top: 2px solid #80808029;
+    border-bottom: 2px solid #80808029;
     margin-bottom: 100px;
 }
 
 .image {
+    padding: 15px 0 15px 0;
     width: 84px;
     height: 32px;
 }
