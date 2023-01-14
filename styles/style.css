@@ -97,7 +97,6 @@
 -------------------- */
 
 .main {
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -105,7 +104,6 @@
 }
 
 .images {
-    border: 2px solid yellow;
     width: 80%;
     display: flex;
     justify-content: space-evenly;
@@ -115,7 +113,6 @@
 }
 
 .image {
-    border: 2px solid red;
     width: 84px;
     height: 32px;
 }
@@ -124,24 +121,22 @@
     blogs
 -------------------- */
 article {
-    border: 2px solid red;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
 
 .blogs {
-    border: 2px solid yellow;
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .blog {
-    border: 2px solid red;
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -149,58 +144,49 @@ article {
 }
 
 .blog-image img {
-    border: 2px solid yellow;
     width: 99%;
 }
 
 .blog-title {
-    border: 2px solid red;
     color: #18191F;
     font-weight: 500;
     font-size: 28px;
 }
 
 .price {
-    border: 2px solid yellow;
     color: rgba(0, 0, 0, 0.87);
     font-weight: 400;
     font-size: 24px;
 }
 
 .blog-ratings {
-    border: 2px solid red;
     display: flex;
     gap: 20px;
 }
 
 .fa-star.filled {
-    border: 2px solid yellow;
     color: #FB8200;
 }
 
 .fa-star {
-    border: 2px solid red;
     width: 11.07px;
     height: 10.32px;
     color: gray;
 }
 
 .total {
-    border: 2px solid yellow;
     color: #5E6366;
     font-weight: 700;
     font-size: 14px;
 }
 
 .blog-description {
-    border: 2px solid yellow;
     position: relative;
     bottom: 10px;
     width: 196px;
 }
 
 .blog-button {
-    border: 2px solid red;
     display: flex;
     width: 74%;
     justify-content: flex-end;
@@ -208,7 +194,6 @@ article {
 }
 
 .blog-button a {
-    border: 2px solid yellow;
     display: flex;
     gap: 10px;
     color: rgba(224, 44, 109, 0.87);
@@ -222,7 +207,6 @@ article {
 ------------------------ */
 
 .product-container {
-    border: 2px solid red;
     width: 90%;
     display: flex;
     flex-direction: row-reverse;
@@ -231,14 +215,12 @@ article {
 }
 
 .product-text-container {
-    border: 2px solid yellow;
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
 .product-title {
-    border: 2px solid red;
     color: #0A0826;
     font-weight: 700;
     font-size: 38px;
@@ -246,7 +228,6 @@ article {
 }
 
 .product-description {
-    border: 2px solid yellow;
     color: #6C6C6C;
     font-weight: 700;
     font-size: 16px;
@@ -264,7 +245,6 @@ article {
 }
 
 .product-image-container {
-    border: 2px solid yellow;
     width: 400px;
     height: 270px;
 }
@@ -274,7 +254,6 @@ article {
 ---------------------- */
 
 .footer {
-    border: 2px solid yellow;
     display: flex;
     justify-content: center;
     height: 240px;
@@ -283,7 +262,6 @@ article {
 }
 
 .footer-container {
-    border: 2px solid yellow;
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -291,21 +269,19 @@ article {
 }
 
 .footer-title {
-    border: 2px solid red;
     font-weight: 700;
     font-size: 24px;
 }
 
 .footer-description {
-    border: 2px solid yellow;
     font-weight: 700;
     font-size: 14px;
 }
 
 .footer-image {
-    border: 2px solid red;
     display: flex;
     justify-content: space-around;
+    margin-top: 10px;
 }
 
 .footer-image a{
